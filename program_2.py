@@ -6,7 +6,13 @@
 
 def main():
     ######################
-    # WRITE YOUR CODE HERE
+    potato=0
+    while potato>=0:
+        movie=input('what movie do you want to see: ')
+        ticket=int(input('how many tickest do you want: '))
+        print('movie:',movie)
+        print('Tickets:',ticket)
+
     ######################
 
 
