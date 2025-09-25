@@ -12,7 +12,9 @@ def main():
     total = 0.0
 
     ######################
-    # WRITE YOUR CODE HERE
+    budget=float(input('enter monthly budget: '))
+    while spent<=0:
+        spent=float(input('enter expnse:'))
     ######################
 
 
