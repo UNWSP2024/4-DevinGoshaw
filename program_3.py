@@ -9,7 +9,7 @@
 # the total inches of rainfall, and the average rainfall per month for the entire period.
 # programmer: Devin Goshaw
 # date: 9/25/2025
-# program: rainfall calculator 
+# program: rainfall calculator program 
 
 def main():
     ######################
