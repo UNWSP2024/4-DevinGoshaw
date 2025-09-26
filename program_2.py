@@ -15,13 +15,13 @@ def main():
         ticket = int(input('How many tickets do you want: '))
 
 
-        print('Movie:', movie)
-        print('Tickets:', ticket)
+        print('Movie:'+ movie)
+        print('Tickets:'+ ticket)
         
 
         totalTickets += ticket
 
-    print('Total tickets:', totalTickets)
+    print('Total tickets:'+ totalTickets)
 
     ######################
 
