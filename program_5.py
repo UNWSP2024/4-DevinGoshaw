@@ -4,6 +4,9 @@
 # month and keep a running total. (Enter 0 to exit the loop)  
 # When the loop finishes, the program should display the amount that the 
 # user is over or under budget.
+#Programmer: Devin Goshaw
+# Date:9/25/2025
+# Title: budget program 
 
 def main():
     budget = 0.0
@@ -13,8 +16,15 @@ def main():
 
     ######################
     budget=float(input('enter monthly budget: '))
-    while spent<=0:
-        spent=float(input('enter expnse:'))
+    while spent>0:
+        spent=float(input('enter expense:'))
+        total = total + spent
+    
+    difference=budget-total
+    if difference>=0:
+        print('nice job you are',difference,'under budget',)
+    else:
+        print('better luck next month you are',-difference,'over budget')
     ######################
 
 

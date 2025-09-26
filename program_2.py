@@ -6,8 +6,8 @@
 
 def main():
     ######################
-    potato=0
-    while potato>=0:
+    
+    while True:
         movie=input('what movie do you want to see: ')
         ticket=int(input('how many tickest do you want: '))
         print('movie:',movie)
