@@ -3,7 +3,9 @@
 # tickets are desired for each movie.  
 # At the end of the program it prints out the total number of tickets desired by the user.  
 # Use either a "for loop" or "while loop" to accomplish this.
-
+#programmer: Devin Goshaw 
+#Date: 9/26/2025
+#program: movie program
 def main():
     ######################
     
