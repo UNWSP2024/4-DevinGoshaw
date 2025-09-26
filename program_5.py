@@ -6,7 +6,7 @@
 # user is over or under budget.
 #Programmer: Devin Goshaw
 # Date:9/25/2025
-# Title: budget program 
+# Title: budget calculator program 
 
 def main():
     budget = 0.0
@@ -24,7 +24,7 @@ def main():
     if difference>=0:
         print('nice job you are',difference,'under budget',)
     else:
-        print('better luck next month you are',-difference,'over budget')
+        print('better luck next month you are',-difference,'dollars over budget')
     ######################
 
 
