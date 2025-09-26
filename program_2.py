@@ -5,13 +5,13 @@
 # Use either a "for loop" or "while loop" to accomplish this.
 #programmer: Devin Goshaw 
 #Date: 9/26/2025
-#program: movie program
+#program: Ticket program
 def main():
     ######################
-    
+    tickets=0
     while True:
         movie=input('what movie do you want to see: ')
-        ticket=int(input('how many tickest do you want: '))
+        ticket=input('how many tickest do you want: ')
         print('movie:',movie)
         print('Tickets:',ticket)
 
