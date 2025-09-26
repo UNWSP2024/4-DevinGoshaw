@@ -8,12 +8,20 @@
 #program: Ticket program
 def main():
     ######################
-    tickets=0
-    while True:
-        movie=input('what movie do you want to see: ')
-        ticket=input('how many tickest do you want: ')
-        print('movie:',movie)
-        print('Tickets:',ticket)
+    totalTickets = 0
+    ticket=4
+    while ticket != 0:
+        movie = input('What movie do you want to see: ')
+        ticket = int(input('How many tickets do you want: '))
+
+
+        print('Movie:', movie)
+        print('Tickets:', ticket)
+        
+
+        totalTickets += ticket
+
+    print('Total tickets:', totalTickets)
 
     ######################
 
