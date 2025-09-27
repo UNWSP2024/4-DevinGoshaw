@@ -16,12 +16,12 @@ def main():
 
 
         print('Movie:'+ movie)
-        print('Tickets:'+ ticket)
+        print('Tickets:', ticket)
         
 
         totalTickets += ticket
 
-    print('Total tickets:'+ totalTickets)
+    print('Total tickets:', totalTickets)
 
     ######################
 
