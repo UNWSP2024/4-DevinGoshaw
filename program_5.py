@@ -11,7 +11,7 @@
 def main():
     budget = 0.0
     difference = 0.0
-    spent = 1.0         #initialize for while loop
+    spent = 1.0         
     total = 0.0
 
     ######################
